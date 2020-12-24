@@ -11,7 +11,6 @@
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run frontend\""
   },
- 
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -23,15 +22,14 @@
     "mongoose": "^5.11.8",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
+    "react-redux": "^7.2.2",
     "validator": "^13.5.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  },  
+  },
   "engines": {
     "node": "10.23.0",
     "npm": "6.14.8"
   }
-
-
 }
