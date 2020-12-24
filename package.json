@@ -9,8 +9,8 @@
     "server:debug": "nodemon --inspect app.js",
     "frontend-install": "npm install --prefix frontend",
     "frontend": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
-    "heroku-postbuild": "cd frontend && npm install && npm run build" 
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+    // "heroku-postbuild": "cd frontend && npm install && npm run build" 
   },
   "author": "",
   "license": "ISC",
